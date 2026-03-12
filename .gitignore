@@ -1,0 +1,14 @@
+.qwen
+.venv
+.env
+.env.local
+.DS_Store
+.pytest_cache
+__pycache__/
+agent_session/
+node_modules/
+.next/
+.vercel
+*.db
+*.tsbuildinfo
+next-env.d.ts

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: alibaba-postgres
+    environment:
+      POSTGRES_USER: alibaba
+      POSTGRES_PASSWORD: alibaba
+      POSTGRES_DB: financial_assistant
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

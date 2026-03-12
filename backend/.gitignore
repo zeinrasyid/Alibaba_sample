@@ -1,0 +1,8 @@
+.qwen
+.venv
+.env
+.DS_Store
+.pytest_cache
+__pycache__/
+agent_session/
+*.db
